@@ -1,4 +1,121 @@
-# developer-productivity-tools README
+# develo# Developer Productivity Tools
+
+A comprehensive VS Code extension packed with useful tools to boost developer productivity. This extension provides a collection of commonly-needed utilities that save time and reduce repetitive tasks.
+
+## Features
+
+### 🔧 Text Manipulation
+- **Duplicate Line** (`Ctrl+Shift+D`): Quickly duplicate the current line
+- **Sort Lines Ascending**: Sort selected lines in alphabetical order
+- **Sort Lines Descending**: Sort selected lines in reverse alphabetical order
+- **Remove Empty Lines**: Clean up your code by removing all empty lines from selection or entire document
+
+### 📊 Text Analysis
+- **Count Words/Lines/Characters**: Get detailed statistics about your text including:
+  - Word count
+  - Character count (with and without spaces)
+  - Line count
+  - Paragraph count
+- **Live Selection Stats**: See real-time word, character, and line counts in the status bar when text is selected
+
+### ⏰ Utilities
+- **Insert Timestamp** (`Ctrl+Shift+T`): Insert current ISO timestamp at cursor position
+- **Generate UUID**: Generate and insert a random UUID
+- **Open in New Window**: Open the current file in a new VS Code window
+
+### 🎯 Smart Context Menus
+All text manipulation commands are available via right-click context menu when appropriate:
+- Duplicate Line (always available)
+- Sort Lines (when text is selected)
+- Remove Empty Lines (when text is selected)
+
+## Installation
+
+1. Open VS Code
+2. Press `Ctrl+P` to open Quick Open
+3. Type `ext install developer-productivity-tools`
+4. Press Enter
+
+## Usage
+
+### Command Palette
+Open the Command Palette (`Ctrl+Shift+P`) and search for "Productivity" to see all available commands.
+
+### Keyboard Shortcuts
+- `Ctrl+Shift+D`: Duplicate current line
+- `Ctrl+Shift+T`: Insert current timestamp
+
+### Context Menu
+Right-click in the editor to access text manipulation tools.
+
+### Status Bar
+When you select text, the status bar will show live statistics including word count, character count, and line count.
+
+## Commands
+
+| Command | Description | Keyboard Shortcut |
+|---------|-------------|-------------------|
+| `developer-productivity-tools.duplicateLine` | Duplicate the current line | `Ctrl+Shift+D` |
+| `developer-productivity-tools.insertTimestamp` | Insert current ISO timestamp | `Ctrl+Shift+T` |
+| `developer-productivity-tools.sortLinesAsc` | Sort selected lines ascending | - |
+| `developer-productivity-tools.sortLinesDesc` | Sort selected lines descending | - |
+| `developer-productivity-tools.removeEmptyLines` | Remove empty lines from selection/document | - |
+| `developer-productivity-tools.countWords` | Show detailed text statistics | - |
+| `developer-productivity-tools.generateUuid` | Generate and insert UUID | - |
+| `developer-productivity-tools.openInNewWindow` | Open current file in new window | - |
+
+## Development
+
+### Prerequisites
+- Node.js (v16 or higher)
+- VS Code
+
+### Setup
+```bash
+git clone <repository-url>
+cd developer-productivity-tools
+npm install
+```
+
+### Running the Extension
+1. Open the project in VS Code
+2. Press `F5` to open a new Extension Development Host window
+3. Test the extension commands in the new window
+
+### Building
+```bash
+npm run compile
+```
+
+### Testing
+```bash
+npm test
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Changelog
+
+### 0.0.1
+- Initial release
+- Added line duplication functionality
+- Added timestamp insertion
+- Added text sorting capabilities
+- Added empty line removal
+- Added text statistics
+- Added UUID generation
+- Added status bar integration
+- Added context menu integration-productivity-tools README
 
 This is the README for your extension "developer-productivity-tools". After writing up a brief description, we recommend including the following sections.
 

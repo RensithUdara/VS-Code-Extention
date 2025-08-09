@@ -1,10 +1,13 @@
 {
   "name": "developer-productivity-tools",
   "displayName": "Developer Productivity Tools",
-  "description": "A collection of useful tools to boost developer productivity",
+  "description": "A collection of useful tools to boost developer productivity including line duplication, text sorting, timestamp insertion, UUID generation, and live text statistics",
   "version": "1.0.0",
   "publisher": "RensithUdara",
-  "author": "Rensith Udara",
+  "author": {
+    "name": "Rensith Udara",
+    "email": "rensithudara@example.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,9 +32,17 @@
     "vscode": "^1.95.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Formatters",
+    "Snippets"
   ],
-  "activationEvents": [],
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [

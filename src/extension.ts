@@ -35,7 +35,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Duplicate current line command
 	const duplicateLineCommand = vscode.commands.registerCommand('developer-productivity-tools.duplicateLine', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
+		if (!editor) {
+			return;
+		}
 
 		const position = editor.selection.active;
 		const line = editor.document.lineAt(position.line);
@@ -53,7 +55,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Insert timestamp command
 	const insertTimestampCommand = vscode.commands.registerCommand('developer-productivity-tools.insertTimestamp', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
+		if (!editor) {
+			return;
+		}
 
 		const timestamp = new Date().toISOString();
 		editor.edit(editBuilder => {

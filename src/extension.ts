@@ -125,7 +125,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Open current file in new window command
 	const openInNewWindowCommand = vscode.commands.registerCommand('developer-productivity-tools.openInNewWindow', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
+		if (!editor) {
+			return;
+		}
 
 		const uri = editor.document.uri;
 		vscode.commands.executeCommand('vscode.openWith', uri, 'default', vscode.ViewColumn.Beside);
@@ -134,7 +136,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Count words/lines/characters command
 	const countWordsCommand = vscode.commands.registerCommand('developer-productivity-tools.countWords', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
+		if (!editor) {
+			return;
+		}
 
 		const selection = editor.selection;
 		const text = selection.isEmpty ? editor.document.getText() : editor.document.getText(selection);

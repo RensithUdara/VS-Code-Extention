@@ -14,20 +14,11 @@
 - [x] Install Required Extensions
 	<!-- No additional extensions required for this project -->
 
-- [ ] Compile the Project
-	<!--
-	Verify that all previous steps have been completed.
-	Install any missing dependencies.
-	Run diagnostics and resolve any issues.
-	Check for markdown files in project folder for relevant instructions on how to do this.
-	-->
+- [x] Compile the Project
+	<!-- Project compiled successfully with no errors. Fixed linting warnings about missing curly braces. -->
 
-- [ ] Create and Run Task
-	<!--
-	Verify that all previous steps have been completed.
-	Check https://code.visualstudio.com/docs/debugtest/tasks to determine if the project needs a task. If so, use the create_and_run_task to create and launch a task based on package.json, README.md, and project structure.
-	Skip this step otherwise.
-	 -->
+- [x] Create and Run Task
+	<!-- Tasks already configured by generator. Build and watch tasks are available. -->
 
 - [ ] Launch the Project
 	<!--

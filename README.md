@@ -1,33 +1,27 @@
-# develo# Developer Productivity Tools
+# develo# Developer Productivity Tools 🚀
 
-A comprehensive VS Code extension packed with useful tools to boost developer productivity. This extension provides a collection of commonly-needed utilities that save time and reduce repetitive tasks.
+A powerful VS Code extension designed to supercharge your development workflow! This extension brings together the most commonly needed productivity tools that developers use daily, all in one convenient package.
 
-## Features
+## ✨ Key Features
 
-### 🔧 Text Manipulation
-- **Duplicate Line** (`Ctrl+Shift+D`): Quickly duplicate the current line
-- **Sort Lines Ascending**: Sort selected lines in alphabetical order
-- **Sort Lines Descending**: Sort selected lines in reverse alphabetical order
-- **Remove Empty Lines**: Clean up your code by removing all empty lines from selection or entire document
+### 🔧 Advanced Text Manipulation
+- **Smart Line Duplication** (`Ctrl+Shift+D`): Instantly duplicate any line with cursor positioning
+- **Intelligent Line Sorting**: Sort selected text alphabetically (ascending/descending)
+- **Clean Code Tools**: Remove empty lines to clean up your codebase
+- **Quick Text Operations**: Streamline your editing workflow
 
-### 📊 Text Analysis
-- **Count Words/Lines/Characters**: Get detailed statistics about your text including:
-  - Word count
-  - Character count (with and without spaces)
-  - Line count
-  - Paragraph count
-- **Live Selection Stats**: See real-time word, character, and line counts in the status bar when text is selected
+### 📊 Real-time Text Analytics
+- **Live Statistics**: Dynamic word, character, and line counting in the status bar
+- **Comprehensive Analysis**: Detailed text statistics including:
+  - Word count and character count (with/without spaces)
+  - Line count and paragraph analysis
+  - Selection-based or document-wide analysis
 
-### ⏰ Utilities
-- **Insert Timestamp** (`Ctrl+Shift+T`): Insert current ISO timestamp at cursor position
-- **Generate UUID**: Generate and insert a random UUID
-- **Open in New Window**: Open the current file in a new VS Code window
-
-### 🎯 Smart Context Menus
-All text manipulation commands are available via right-click context menu when appropriate:
-- Duplicate Line (always available)
-- Sort Lines (when text is selected)
-- Remove Empty Lines (when text is selected)
+### ⚡ Developer Utilities
+- **Instant Timestamps** (`Ctrl+Shift+T`): Insert ISO-formatted timestamps
+- **UUID Generation**: Generate RFC4122 compliant UUIDs instantly
+- **Multi-window Workflow**: Open files in new VS Code windows
+- **Context-aware Menus**: Smart right-click options based on your selection
 
 ## Installation
 

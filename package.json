@@ -2,7 +2,29 @@
   "name": "developer-productivity-tools",
   "displayName": "Developer Productivity Tools",
   "description": "A collection of useful tools to boost developer productivity",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "RensithUdara",
+  "author": "Rensith Udara",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RensithUdara/VS-Code-Extention.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RensithUdara/VS-Code-Extention/issues"
+  },
+  "homepage": "https://github.com/RensithUdara/VS-Code-Extention#readme",
+  "keywords": [
+    "productivity",
+    "tools",
+    "utilities",
+    "developer",
+    "text manipulation",
+    "line duplication",
+    "sorting",
+    "uuid",
+    "timestamp"
+  ],
   "engines": {
     "vscode": "^1.95.0"
   },

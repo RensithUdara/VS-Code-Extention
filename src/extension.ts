@@ -68,7 +68,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Sort lines ascending command
 	const sortLinesAscCommand = vscode.commands.registerCommand('developer-productivity-tools.sortLinesAsc', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor || editor.selection.isEmpty) return;
+		if (!editor || editor.selection.isEmpty) {
+			return;
+		}
 
 		const selectedText = editor.document.getText(editor.selection);
 		const lines = selectedText.split('\n');
@@ -82,7 +84,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Sort lines descending command
 	const sortLinesDescCommand = vscode.commands.registerCommand('developer-productivity-tools.sortLinesDesc', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor || editor.selection.isEmpty) return;
+		if (!editor || editor.selection.isEmpty) {
+			return;
+		}
 
 		const selectedText = editor.document.getText(editor.selection);
 		const lines = selectedText.split('\n');
@@ -96,7 +100,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Remove empty lines command
 	const removeEmptyLinesCommand = vscode.commands.registerCommand('developer-productivity-tools.removeEmptyLines', () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
+		if (!editor) {
+			return;
+		}
 
 		const selection = editor.selection;
 		const text = selection.isEmpty ? editor.document.getText() : editor.document.getText(selection);

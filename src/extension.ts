@@ -164,7 +164,9 @@ export function activate(context: vscode.ExtensionContext) {
 	// Generate UUID command
 	const generateUuidCommand = vscode.commands.registerCommand('developer-productivity-tools.generateUuid', async () => {
 		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
+		if (!editor) {
+			return;
+		}
 
 		// Generate UUID without external dependency
 		const uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {

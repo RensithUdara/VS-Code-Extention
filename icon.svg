@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#007ACC"/>
+  <g fill="white">
+    <!-- Tools icon -->
+    <rect x="20" y="35" width="4" height="25" rx="2"/>
+    <rect x="30" y="40" width="4" height="20" rx="2"/>
+    <rect x="40" y="32" width="4" height="28" rx="2"/>
+    <rect x="50" y="38" width="4" height="22" rx="2"/>
+    
+    <!-- Productivity arrows -->
+    <polygon points="70,25 85,35 70,45 70,38 60,38 60,32 70,32"/>
+    <polygon points="70,50 85,60 70,70 70,63 60,63 60,57 70,57"/>
+    
+    <!-- Code brackets -->
+    <path d="M20,80 L15,85 L20,90 M35,80 L40,85 L35,90" stroke="white" stroke-width="3" fill="none"/>
+    
+    <!-- Gear icon -->
+    <circle cx="90" cy="85" r="12" fill="none" stroke="white" stroke-width="3"/>
+    <circle cx="90" cy="85" r="6" fill="white"/>
+    <rect x="88" y="70" width="4" height="8"/>
+    <rect x="88" y="92" width="4" height="8"/>
+    <rect x="75" y="83" width="8" height="4"/>
+    <rect x="97" y="83" width="8" height="4"/>
+  </g>
+</svg>

@@ -8,16 +8,11 @@
 - [x] Scaffold the Project
 	<!-- Extension scaffolded successfully with TypeScript, esbuild bundling, and Git initialization -->
 
-- [ ] Customize the Project
-	<!--
-	Verify that all previous steps have been completed successfully and you have marked the step as completed.
-	Develop a plan to modify codebase according to user requirements.
-	Apply modifications using appropriate tools and user-provided references.
-	Skip this step for "Hello World" projects.
-	-->
+- [x] Customize the Project
+	<!-- Added multiple useful productivity commands: duplicate line, insert timestamp, sort lines, remove empty lines, count words, generate UUID, status bar integration, and context menu items -->
 
-- [ ] Install Required Extensions
-	<!-- ONLY install extensions provided mentioned in the get_project_setup_info. Skip this step otherwise and mark as completed. -->
+- [x] Install Required Extensions
+	<!-- No additional extensions required for this project -->
 
 - [ ] Compile the Project
 	<!--

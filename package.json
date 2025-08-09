@@ -14,10 +14,81 @@
   "contributes": {
     "commands": [
       {
-        "command": "developer-productivity-tools.helloWorld",
-        "title": "Hello World"
+        "command": "developer-productivity-tools.duplicateLine",
+        "title": "Duplicate Current Line",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.insertTimestamp",
+        "title": "Insert Current Timestamp",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.sortLinesAsc",
+        "title": "Sort Selected Lines (Ascending)",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.sortLinesDesc",
+        "title": "Sort Selected Lines (Descending)",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.removeEmptyLines",
+        "title": "Remove Empty Lines",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.openInNewWindow",
+        "title": "Open Current File in New Window",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.countWords",
+        "title": "Count Words/Lines/Characters",
+        "category": "Productivity"
+      },
+      {
+        "command": "developer-productivity-tools.generateUuid",
+        "title": "Generate UUID",
+        "category": "Productivity"
       }
-    ]
+    ],
+    "keybindings": [
+      {
+        "command": "developer-productivity-tools.duplicateLine",
+        "key": "ctrl+shift+d",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "developer-productivity-tools.insertTimestamp",
+        "key": "ctrl+shift+t",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "developer-productivity-tools.duplicateLine",
+          "group": "1_modification@1"
+        },
+        {
+          "command": "developer-productivity-tools.sortLinesAsc",
+          "group": "1_modification@2",
+          "when": "editorHasSelection"
+        },
+        {
+          "command": "developer-productivity-tools.sortLinesDesc",
+          "group": "1_modification@3",
+          "when": "editorHasSelection"
+        },
+        {
+          "command": "developer-productivity-tools.removeEmptyLines",
+          "group": "1_modification@4",
+          "when": "editorHasSelection"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
